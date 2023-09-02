@@ -6,7 +6,6 @@ let codeChest: string[] = [];
 
 export function activate(context: vscode.ExtensionContext) {
     let addToCodeChest = vscode.commands.registerCommand('extension.addToCodeChest', async () => {
-        // Muestra un cuadro de diálogo para que el usuario seleccione archivos
         const files = await vscode.window.showOpenDialog({
             canSelectMany: true,
             openLabel: 'Add to CodeChest || Añadir al CodeCofre'
@@ -41,7 +40,6 @@ export function activate(context: vscode.ExtensionContext) {
         fs.writeFileSync(savePath, content);
         vscode.window.showInformationMessage(`Files content copied from CodeChest to ${savePath} || Todo copiado al CodeCofre`);
 
-        // Clear the CodeChest
         codeChest = [];
     });
 
