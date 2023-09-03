@@ -9,7 +9,7 @@ CodeChest 3ntr0pia is a VS Code extension that allows you to select and add mult
 Add to CodeChest: Select the code files you want to add to the chest.
 Copy from CodeChest: Once you've added all the desired files, execute this command to copy all the content into YourCode.txt.
 
-![Demo](https://github.com/3ntr0pia/codeChest_3ntr0pia/blob/main/src/codechest.gif)
+![gif](src/codechest.gif)
 
 # Español:
 

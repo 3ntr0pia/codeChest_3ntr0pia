@@ -26,6 +26,8 @@
     "onCommand:extension.addToCodeChest",
     "onCommand:extension.copyFromCodeChest"
   ],
+  "publisher": "3ntr0pia",
+  "icon": "logo.png",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
